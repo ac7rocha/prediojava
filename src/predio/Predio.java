@@ -22,6 +22,7 @@ public class Predio {
           elevadorSocial.Entra();
           elevadorSocial.Sobe();
           elevadorSocial.Entra();
+          elevadorSocial.Sobe();
           System.out.println("Tem " +elevadorSocial.getLotacaoElevador() + " pessoas no elevador");
           System.out.println("Andar atual " +elevadorSocial.getAndarAtual());  
         
